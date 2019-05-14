@@ -31,3 +31,5 @@ else
 
     -include vendor/google_devices/bramble/proprietary/BoardConfigVendor.mk
 endif
+
+include device/google/bramble/bramble/BoardConfig-calyx.mk
