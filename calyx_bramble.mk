@@ -2,6 +2,7 @@
 $(call inherit-product, vendor/calyx/config/common_phone.mk)
 
 # Inherit device configuration
+$(call inherit-product, device/google/bramble/device-calyx.mk)
 $(call inherit-product, device/google/redbull/device-calyx.mk)
 $(call inherit-product, device/google/bramble/aosp_bramble.mk)
 
