@@ -13,9 +13,9 @@ PRODUCT_BRAND := google
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     TARGET_PRODUCT=bramble \
-    PRIVATE_BUILD_DESC="bramble-user 13 TQ1A.221205.011 9244662 release-keys"
+    PRIVATE_BUILD_DESC="bramble-user 13 TQ1A.230105.001 9292298 release-keys"
 
-BUILD_FINGERPRINT := google/bramble/bramble:13/TQ1A.221205.011/9244662:user/release-keys
+BUILD_FINGERPRINT := google/bramble/bramble:13/TQ1A.230105.001/9292298:user/release-keys
 
 PRODUCT_RESTRICT_VENDOR_FILES := false
 
