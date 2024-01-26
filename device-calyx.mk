@@ -18,6 +18,10 @@
 PRODUCT_COPY_FILES += \
     device/google/bramble/the_experiences.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/the_experiences.xml
 
+# Properties
+TARGET_PRODUCT_PROP += device/google/bramble/product.prop
+TARGET_PRODUCT_PROP += device/google/bramble/vendor.prop
+
 # HBM
 PRODUCT_PACKAGES += \
     HbmSVManagerOverlay
