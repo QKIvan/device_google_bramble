@@ -18,8 +18,8 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/aosp_bramble.mk \
     $(LOCAL_DIR)/aosp_bramble_64.mk \
     $(LOCAL_DIR)/aosp_bramble_hwasan.mk \
-    $(LOCAL_DIR)/calyx_bramble.mk \
+    $(LOCAL_DIR)/hentai_bramble.mk \
 
 COMMON_LUNCH_CHOICES := \
     aosp_bramble-userdebug \
-    calyx_bramble-userdebug \
+    hentai_bramble-userdebug \
