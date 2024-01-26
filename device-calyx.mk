@@ -25,3 +25,8 @@ TARGET_PRODUCT_PROP += device/google/bramble/vendor.prop
 # HBM
 PRODUCT_PACKAGES += \
     HbmSVManagerOverlay
+
+# Rro_overlay
+PRODUCT_PACKAGES += \
+    SettingsResBramble
+
