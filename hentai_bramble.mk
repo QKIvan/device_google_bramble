@@ -11,6 +11,7 @@ $(call inherit-product, device/google/bramble/aosp_bramble.mk)
 
 ## Device identifier. This must come after all inclusions
 DISABLE_ARTIFACT_PATH_REQUIREMENTS := true
+TARGET_SUPPORTS_QUICK_TAP := true
 PRODUCT_NAME := hentai_bramble
 PRODUCT_MODEL := Pixel 4a (5G)
 PRODUCT_BRAND := google
